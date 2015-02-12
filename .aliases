@@ -1,0 +1,49 @@
+echo "Loading .aliases"
+
+## Some own aliases
+#alias nw='node-webkit'
+alias webpack='webpack --progress --colors'
+alias serve='serve `pwd`'
+
+## Some alias favourites from http://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
+
+alias ..='cd ..'
+alias ll='ls -lGha'
+alias la='ls -lGha'
+alias lrt='ls -lrtGha'
+alias l.='ls -d .* --color=auto'
+
+## get rid of command not found ##
+alias cd..='cd ..'
+alias emcas='emacs'
+ 
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+## Colorize the grep command output for ease of use (good for log files)##
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+alias mkdir='mkdir -pv'
+alias diff='colordiff'
+alias mount='mount |column -t'
+# become root #
+alias root='sudo -i'
+alias su='sudo -i'
+## pass options to free ## 
+alias meminfo='free -m -l -t'
+ 
+## Get server cpu info ##
+alias cpuinfo='lscpu'
+
+## set some other defaults ##
+alias df='df -H'
+alias du='du -ch'
+
+alias gs='git status'
