@@ -1,2 +1,2 @@
 #!/bin/sh
-netstat -a |grep LISTEN |grep -v unix
+netstat -ap |grep LISTEN |grep -v unix

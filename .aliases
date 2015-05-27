@@ -8,9 +8,9 @@ alias serve='serve `pwd`'
 ## Some alias favourites from http://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 alias ..='cd ..'
-alias ll='ls -lGha'
-alias la='ls -lGha'
-alias lrt='ls -lrtGha'
+alias ll='ls -lGha --color=auto'
+alias la='ls -lGha --color=auto'
+alias lrt='ls -lrtGha --color=auto'
 alias l.='ls -d .* --color=auto'
 
 ## get rid of command not found ##
